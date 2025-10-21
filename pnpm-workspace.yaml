@@ -1,0 +1,31 @@
+packages: []
+catalogs:
+  build:
+    tsdown: ^0.15.9
+    unbuild: ^3.6.1
+  cli:
+    bumpp: ^10.3.1
+    pncat: ^0.7.3
+    taze: ^19.8.1
+  lint:
+    '@antfu/eslint-config': ^6.0.0
+    eslint: ^9.38.0
+    lint-staged: ^16.2.5
+    simple-git-hooks: ^2.13.1
+  node:
+    '@clack/prompts': ^0.11.0
+    ansis: ^4.2.0
+    cac: ^6.7.14
+    pathe: ^2.0.3
+    unconfig: ^7.3.3
+  script:
+    tsx: ^4.20.6
+  test:
+    vitest: ^3.2.4
+  tsc:
+    typescript: ^5.9.3
+  types:
+    '@types/node': ^24.9.1
+onlyBuiltDependencies:
+  - esbuild
+  - simple-git-hooks
